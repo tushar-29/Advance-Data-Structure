@@ -10,6 +10,7 @@ void display(int *arr, int size)
     cout<<endl;
 }
 
+
 int check(int i){return i%2;}
 
 void print_result(int i)
