@@ -1,0 +1,33 @@
+Dynamic Programming is used when the problem state:
+ --> To find all possible solution 
+ --> Count all possible solution
+ --> To find selective possible solution
+ --> To find maximization or minimization problem
+
+
+All DP problem should be solved through reccursion solution.
+Then converted to memonization 
+Then finally we can solve through tabulation which is most optimal solution.
+
+memonization:
+    It is top down approch like reccursion but it store the vlue for future use.
+    Value is only stored after reaching the bottom part.
+
+Tabulation:
+    It is buttom up approch opposit of memonization.
+    Value is store at beginning of the simplest part of the problem.
+
+
+For 1D DP problem the step to be followed are : 
+
+ --> Try to represent the problem in term of index
+ --> Do all the possible stuff on that index according to problem stated
+ --> * Sum of all the stuff -- for count all ways
+     * Choose minimum or maximum -- for maximization or minimization problem
+
+NOTE : Gready Approch failes because of non uniformity in the values due 
+       to which we use dynamic programming approch.
+
+
+DP on Subsequence and Subset
+Subsequence follow the order 
